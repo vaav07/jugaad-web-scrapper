@@ -15,7 +15,7 @@ const fetchData = async () => {
     const response = await axios.get(API_URL, {
       headers: {
         // Add necessary headers here if needed
-        Apikey: "LXnMWcYQhipLAS7rImEzmZ3CkrU033FMha9cwVSngG4vbufTsAOCQQ==",
+        Apikey: "",
       },
     });
     // console.log(response.data.result.hits);
